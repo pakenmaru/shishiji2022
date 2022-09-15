@@ -1,11 +1,10 @@
-p {
-    color: #36a93b;
-}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
+    font-weight: 10;
  }
 header {
      width: 100%;
@@ -14,6 +13,9 @@ header {
     position: sticky;
     top: 0;
     opacity: 80%;
+ }
+ .logo{
+    margin: 0;
  }
 .logomenu {
     margin: 0px 5% 0px;
@@ -30,35 +32,47 @@ a {
     text-decoration: none;
  }
  .menu {
-     margin: 0% 10% 0% 0%;
+     margin: 0% 10% 1% 0%;
      
  }
-ul {
+.linkul{
     list-style: none;
-    margin: 0;
     display: flex;
     align-items: center;
  }
+.trueworks{
+    font-size: 80%;
+    margin: 0;
+    color: white;
+ }
 li{
-     padding: 0% 0% 0% 20%;
+    margin: 0%, 5%, 0%, 0%;
+     padding: 0%;
      font-size:25px;
      font-weight: 200;
+     color:rgb(0, 0, 0);
  }
- .workslink {
+ .workslink{
     background: linear-gradient(-135deg, #66FFFF, #087676);
-    color: rgb(0, 0, 0);
-    padding: 5px 10% 5px;
-    width: 60%;
-    border-radius: 30px; 
+    padding: 10%;
+    width: 100%;
+    margin: 0%, 10%; 
+    margin-right: 40%;
+    border-radius: 5px; 
+    transition-duration: .1s;
+
 }
 .workslink:hover{
     background: linear-gradient(-135deg, #087676, #66FFFF);
+    transform: rotate(5deg);
+    transition-duration: .1s;
   }
+
  nav {
     margin: 0 0 0 auto;
  }
 .workstitle {
-    font-size: 50px;
+    font-size: 40px;
     border-left: 10px solid #66FFFF;
     padding: 10px;
     font-weight: 200;
@@ -66,15 +80,20 @@ li{
 .work {
     padding: 0% 5% 0%;
 }
+
 .aboutlink {
-    background: linear-gradient(-135deg, #66FFFF, #087676);
-    color: rgb(0, 0, 0);
-    padding: 5px 10% 5px;
-    width: 60%;
-    border-radius: 30px; 
+    background: linear-gradient(-135deg, #66dbff, #085c76);
+    padding: 10%;
+    width: 100%;
+    margin: 0%, 10%; 
+    margin-right: 40%;
+    border-radius: 5px; 
+    transition-duration: .1s;
 }
 .aboutlink:hover{
-    background: linear-gradient(-135deg, #087676, #66FFFF);
+    background: linear-gradient(-135deg, #085c76, #66dbff);
+    transform: rotate(5deg);
+    transition-duration: .1s;
   }
 img.workslogo{
     width: 15%;
