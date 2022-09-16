@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
     padding: 0;
@@ -36,7 +35,7 @@ a {
      margin: 0% 10% 0% 0%;
      
  }
-.linkul{
+ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -49,6 +48,10 @@ a {
     margin: 0;
     color: white;
  }
+ .logomenu a{
+    color: #000;
+ }
+ 
 li{
     margin: 0%, 5%, 0%, 0%;
      padding: 0%;
@@ -119,4 +122,66 @@ img.workslogo{
     align-items: center;
 }
 
+.colortext p{
+  
+  color: #000;
+  
 
+}
+.colortext{
+    margin: 5%, 20%, 5%, 20%;
+    padding-left: 0%;
+}
+
+.colorscreen{
+    text-align: center;
+}
+
+.page-header{
+    width: 100%;
+     background-color: #fff; 
+    opacity: 80%;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.page-title-detail{
+    color: #085c76;
+}
+.gametitle{
+    font-size: 30px;
+    font-weight: 30;
+    border-left: 10px solid #66FFFF;
+    padding: 10px;
+}
+.gamecontent{
+    padding:0% 10%;
+}
+
+.darkscreen{
+    text-align: center;
+}
+
+.darktext p{
+  
+    color: #000;
+    
+  
+  }
+  .darktext{
+      margin: 20%;
+  }
+  .thum{
+    text-align: center;
+  }
+  
+.midashi{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.setsumei{
+    margin-left: 3% ;
+}
