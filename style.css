@@ -211,6 +211,23 @@ footer{
     position: absolute;
 }
 
+.unityroom{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.icontobu{
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
+.tobuyatu{
+    text-align: center;
+}
+
 @media (max-width: 640px){
     .iphone{
         overflow: hidden;
