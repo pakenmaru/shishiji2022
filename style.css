@@ -1,4 +1,9 @@
 
+    
+html{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -184,4 +189,42 @@ img.workslogo{
 
 .setsumei{
     margin-left: 3% ;
+}
+
+.pdf{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.wrapper{
+    font-size: 30px;
+    text-align: center;
+    background-color: #66dbff;
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+@media (max-width: 640px){
+    .iphone{
+        overflow: hidden;
+    }
+    img.logoimage{
+        width: 100%;
+	    height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .linkul{
+        margin-right: 5%;
+    }
+    .trueworks{
+        font-size: 15px;
+    }
 }
